@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Metal Mania";
+    src: url(../fonts/MetalMania-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "New Rocker";
+    src: url(../fonts/NewRocker-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RocknRoll One";
+    src: url(../fonts/RocknRollOne-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+body {
+    background-image: url(../img/festival.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Metal Mania";
+    font-weight: 400;
+    text-shadow: 2px 2px red;
+}
+
+.main__header {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.main__header h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.main__header h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.header__title {
+    text-align: center;
+    font-size: 200px;
+    text-shadow: 5px 5px red;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1200px;
+    height: 700px;
+    margin-bottom: 8em;
+}
+.card {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 350px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.card--light-theme {
+    background-color: #e2e2e2;
+}
+
+.card--dark-theme {
+    background-color: #727875;
+    color: #FFFFFF;
+}
+
+.card__picture {
+    width: 350px;
+    height: 200px;
+    background-image: url(../img/hands.avif);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card__content {
+    font-family: "RocknRoll One";
+    font-size: 20px;
+    text-align: center;
+}
+
+.card__button {
+    font-size: 24px;
+    background-color: transparent;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+}
+
+.card__button:hover {
+    background-color: yellow;
+    font-family: "New Rocker";
+}
+
+.festival-pass-platinum button:hover {
+    border: 2px solid gray;
+    background-color: #727875;
+} 
+
+.main__signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 8em;
+}
+
+.signup__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+input[type="email"] {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #000000;
+    height: 300px;
+    text-align: center;
+}
+
+footer span {
+    font-family: "RocknRoll One";
+    color: white;
+}
+
+.social__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
