@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style/register.css" type="text/css">
+    <title>Register</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">Djentfest 2023</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Tickets</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Information</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./register.html">Register</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="register d-flex">
+            <div class="register__form">
+                <h2>Register Here</h2>
+                <form action="" method="post">
+                  <div class="register__fullname m-top">
+                    <div class="register__fname">
+                      <label for="fname">First Name:</label>
+                      <input 
+                        type="text" 
+                        name="fname" 
+                        id="fname" 
+                        placeholder="First Name*" required>
+                    </div>
+                    <div class="register__lname">
+                      <label for="lname">Last Name:</label>
+                      <input 
+                        type="text" 
+                        name="lname" 
+                        id="lname"
+                        placeholder="Last Name*" required>
+                    </div>
+                  </div>
+                  <div class="register__address m-top">
+                    <label for="email">Email:</label>
+                    <input 
+                      type="email" 
+                      name="email" 
+                      id="email" 
+                      placeholder="Email*">
+                    <label for="address">Address:</label>
+                    <input 
+                      type="text" 
+                      name="address" 
+                      id="address" 
+                      placeholder="Address">
+                    <label for="password">Password:</label>
+                    <input 
+                      type="password" 
+                      name="password" 
+                      id="password" 
+                      placeholder="Password*" required>
+                  </div>
+                  <div class="register__bday m-top">
+                    <div class="bday__month">
+                      <label for="month">Month:</label>
+                      <input 
+                        type="month" 
+                        name="month" 
+                        id="month"
+                        placeholder="Month" required>
+                    </div>
+                    <div class="bday__day">
+                      <label for="number">Day:</label>
+                      <input 
+                        type="number" 
+                        name="number" 
+                        id="number" 
+                        min="1" 
+                        max="31" 
+                        value="1">
+                    </div>
+                  </div>
+                  <h3>Additional Info</h3>
+                  <div class="register__additional m-top">
+                    <div class="register__tel">
+                      <label for="tel">Tel:</label>
+                      <input 
+                      type="tel" 
+                      name="tel" 
+                      id="tel" 
+                      placeholder="Telephone (Optional)">
+                    </div>
+                    <div class="register__gender">
+                      <label for="gender">Gender:</label>
+                      <input 
+                        type="radio" 
+                        name="gender" 
+                        id="male">
+                        <span>Male</span>
+                      <input 
+                        type="radio" 
+                        name="gender" 
+                        id="female">
+                        <span>Female</span>
+                    </div>
+                  </div>
+                  <div class="create__account">
+                    <label for="submit">Create Account</label>
+                    <input 
+                      class="register__btn"
+                      type="submit" 
+                      name="create-account"
+                      id="create-account"
+                      value="Create Account">
+                  </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>Follow us on socials</span>
+        <ul class="social__list">
+            <li class="list__item"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+            <li class="list__item"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+            <li class="list__item"><i class="fa-brands fa-spotify" style="color: #ffffff;"></i></li>
+            <li class="list__item"><i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></li>
+            <li class="list__item"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></li>
+        </ul>
+        <span>All rights reserved.</span>
+    </footer>
+</body>
+</html>

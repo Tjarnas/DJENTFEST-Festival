@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Metal Mania";
+    src: url(../fonts/MetalMania-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "New Rocker";
+    src: url(../fonts/NewRocker-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "RocknRoll One";
+    src: url(../fonts/RocknRollOne-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+body {
+    background-image: url(../img/festival.jpg);
+}
+
+.navbar-brand {
+    font-family: "Metal Mania";
+    font-size: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Metal Mania";
+    font-weight: 400;
+    text-shadow: 2px 2px red;
+}
+
+.register {
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.register__form {
+    color: white;
+    padding: 5em;
+    background-image: url(../img/fire.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 700px;
+    border: 2px solid red;
+    border-radius: 40px;
+}
+
+.register__form h3 {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.register__fullname {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+
+.register__fname input {
+    width: 250px;
+}
+
+.register__fname label {
+    display: block;
+}
+
+.register__lname input {
+    width: 250px;
+}
+
+.register__lname label {
+    display: block;
+}
+
+.register__address {
+    display: flex;
+    flex-direction: column;
+}
+
+.register__address label {
+    display: block;
+    margin-top: 1em;
+}
+
+.register__bday {
+    display: flex;
+    column-gap: 2em;
+}
+
+.bday__month label {
+    display: block;
+}
+
+.bday__day label {
+    display: block;
+}
+
+.register__additional {
+    display: flex;
+    column-gap: 2em;
+}
+
+.register__additional label {
+display: block;
+}
+
+.register__additional  span {
+    margin-right: 2em;
+}
+
+.register__tel input {
+    width: 250px;
+}
+
+.create__account {
+    display: flex;
+    justify-content: center;
+}
+
+.create__account label {
+    display: none;
+}
+
+.register__btn input {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.register__btn {
+    font-size: 24px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    margin-top: 2em;
+    width: 200px;
+    height: 50px;
+    transition-duration: 0.4s;
+}
+
+.register__btn:hover {
+    background-color: yellow;
+    color: #000000;
+    font-family: "New Rocker";
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #000000;
+    height: 300px;
+    text-align: center;
+}
+
+footer span {
+    font-family: "RocknRoll One";
+    color: white;
+}
+
+.social__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    list-style: none;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+/* Helper Classes */
+
+.m-top {
+    margin-top: 2em;
+}
