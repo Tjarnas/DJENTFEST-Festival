@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .register {
     justify-content: center;
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .register__form {
@@ -145,12 +146,6 @@ display: block;
     background-color: yellow;
     color: #000000;
     font-family: "New Rocker";
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 footer {

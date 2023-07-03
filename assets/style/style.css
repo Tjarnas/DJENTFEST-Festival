@@ -46,6 +46,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5em;
 }
 
+.main__header {
+    animation: bounce-in 2s ease;
+  }
+  @keyframes bounce-in {
+    0% {
+      opacity: 0;
+      transform: scale(.3);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    70% { transform: scale(.9); }
+    100% { transform: scale(1); }
+  }
+
 .main__header h2 {
     text-align: center;
     font-size: 50px;
@@ -78,6 +94,18 @@ h1, h2, h3, h4, h5, h6 {
     height: 700px;
     margin-bottom: 8em;
 }
+
+.card:hover {
+    animation: gelatine 0.5s;
+  }
+
+  @keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+  }
+
 .card {
     box-sizing: content-box;
     display: flex;

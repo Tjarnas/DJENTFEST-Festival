@@ -10,3 +10,11 @@
 **BEETROOT - HOMEWORK 13**
 
 - Add forms to your site
+
+**BEETROOT - HOMEWORK 13**
+
+- Add SVGs to your site (done through previous exercise)
+
+**BEETROOT - HOMEWORK 13**
+
+- try animations in your sites
